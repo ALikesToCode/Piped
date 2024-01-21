@@ -4,9 +4,9 @@
     <LoadingIndicatorPage :show-content="channel != null && !channel.error">
         <img
             v-if="channel.bannerUrl"
+            loading="lazy"
             :src="channel.bannerUrl"
             class="h-30 w-full object-cover py-1.5 md:h-50"
-            loading="lazy"
         />
         <div class="flex flex-col items-center justify-between md:flex-row">
             <div class="flex place-items-center">
@@ -19,12 +19,13 @@
 
             <div class="flex gap-2">
                 <button
-                    v-t="{
-                        path: `actions.${subscribed ? 'unsubscribe' : 'subscribe'}`,
-                        args: { count: numberFormat(channel.subscriberCount) },
-                    }"
                     class="btn"
                     @click="subscribeHandler"
+                    v-text="
+                        $t('actions.' + (subscribed ? 'unsubscribe' : 'subscribe')) +
+                        ' - ' +
+                        numberFormat(channel.subscriberCount)
+                    "
                 ></button>
 
                 <button

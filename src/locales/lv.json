@@ -28,7 +28,7 @@
         "auto_play_next_video": "Automātiski Atskaņot Nākošo Video",
         "instance_selection": "Instance",
         "dismiss": "Noraidīt",
-        "subscribe": "Abonēt - {count}",
+        "subscribe": "Abonēt",
         "clear_history": "Tīrīt Vēsturi",
         "loading": "Ielādē...",
         "minimize_description": "Paslēpt Aprakstu",
@@ -40,7 +40,7 @@
         "delete_account": "Dzēst Kontu",
         "minimize_description_default": "Paslēpt Aprakstu pēc Noklusējuma",
         "chapters_layout_mobile": "Nodaļu Izvietojums un Mobilajām Ierīcēm",
-        "unsubscribe": "Atcelt abonomentu - {count}",
+        "unsubscribe": "Atcelt abonomentu",
         "channel_name_desc": "Kanāla nosaukums (Z-A)",
         "backup_preferences": "Dublēt Iestatījumus",
         "language_selection": "Valoda",
@@ -126,7 +126,8 @@
         "bookmark_playlist": "Izveidot Grāmatzīmi",
         "clone_playlist": "Klonēt Atskaņošanas Saturu",
         "uses_api_from": "Izmanto API no ",
-        "add_to_playlist": "Pievienot Atskaņošanas Sarakstam"
+        "add_to_playlist": "Pievienot Atskaņošanas Sarakstam",
+        "instances_not_shown": "Publiskās instances, kas šeit nav redzamas, pašlaik nav pieejamas."
     },
     "search": {
         "all": "YouTube: Visi",

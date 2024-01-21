@@ -22,8 +22,8 @@
         "failed": "Fracàs amb lo còdi d’error {0}, consultat los jornals d’audit per mai d’informacions"
     },
     "actions": {
-        "subscribe": "S’abonar - {count}",
-        "unsubscribe": "Se desabonar - {count}",
+        "subscribe": "S’abonar",
+        "unsubscribe": "Se desabonar",
         "view_subscriptions": "Veire los abonaments",
         "sort_by": "Triar per :",
         "most_recent": "Mai recents",
@@ -148,7 +148,8 @@
         "download_frame": "Telecargar fotograma",
         "generate_qrcode": "Generar un còdi QR",
         "instance_privacy_policy": "Politica de confidencialitat",
-        "add_to_group": "Apondre al grop"
+        "add_to_group": "Apondre al grop",
+        "instances_not_shown": "Las instàncias publicas que se veson pas aicí son pas disponiblas actualament."
     },
     "preferences": {
         "instance_locations": "Localizacion de l’instància",

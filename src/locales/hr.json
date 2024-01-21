@@ -22,7 +22,8 @@
         "instance_name": "Ime instance",
         "registered_users": "Registrirani korisnici",
         "version": "Verzija",
-        "up_to_date": "Najnovija verzija?"
+        "up_to_date": "Najnovija verzija?",
+        "uptime_30d": "Vrijeme rada (30 dana)"
     },
     "comment": {
         "pinned_by": "Prikvačio korisnik {author}",
@@ -73,8 +74,8 @@
         "most_recent": "Najnovije",
         "sort_by": "Redoslijed:",
         "view_subscriptions": "Pogledaj pretplate",
-        "unsubscribe": "Otkaži pretplatu – {count}",
-        "subscribe": "Pretplati se – {count}",
+        "unsubscribe": "Otkaži pretplatu",
+        "subscribe": "Pretplati se",
         "skip_interaction": "Preskoči podsjetnik za interakciju (pretplata)",
         "skip_outro": "Preskoči odjavnu špicu",
         "skip_intro": "Preskoči pauzu i uvodnu animaciju",
@@ -157,7 +158,9 @@
         "import_from_json_csv": "Uvezi iz JSON/CSV formata",
         "download_frame": "Preuzmi kadar",
         "instance_privacy_policy": "Politika privatnosti",
-        "add_to_group": "Dodaj grupi"
+        "add_to_group": "Dodaj grupi",
+        "instances_not_shown": "Javne instance koje ovdje nisu prikazane trenutačno nisu dostupne.",
+        "concurrent_prefetch_limit": "Ograničenje istodobnog preuzimanja videa"
     },
     "player": {
         "watch_on": "Gledaj na {0}",

@@ -39,7 +39,7 @@
     <hr />
 
     <span class="flex gap-2">
-        <router-link class="btn" to="/subscriptions">Subscriptions</router-link>
+        <router-link v-t="'titles.subscriptions'" class="btn" to="/subscriptions" />
         <a :href="getRssUrl" class="btn">
             <font-awesome-icon icon="rss" />
         </a>
@@ -124,9 +124,18 @@ export default {
                     authToken: this.getAuthToken(),
                 });
             } else {
-                return await this.fetchJson(this.authApiUrl() + "/feed/unauthenticated", {
-                    channels: this.getUnauthenticatedChannels(),
-                });
+                const channels = this.getUnauthenticatedChannels();
+                const split = channels.split(",");
+                if (split.length > 100) {
+                    return await this.fetchJson(this.authApiUrl() + "/feed/unauthenticated", null, {
+                        method: "POST",
+                        body: JSON.stringify(split),
+                    });
+                } else {
+                    return await this.fetchJson(this.authApiUrl() + "/feed/unauthenticated", {
+                        channels: channels,
+                    });
+                }
             }
         },
         async loadChannelGroups() {

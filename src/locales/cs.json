@@ -19,7 +19,7 @@
     },
     "actions": {
         "loop_this_video": "Přehrávat video ve smyčce",
-        "subscribe": "Odebírat - {count}",
+        "subscribe": "Odebírat",
         "view_subscriptions": "Zobrazit odběry",
         "sort_by": "Seřadit podle:",
         "most_recent": "Nejnovější",
@@ -68,7 +68,7 @@
         "clear_history": "Smazat historii",
         "hide_replies": "Skrýt odpovědi",
         "load_more_replies": "Načíst další odpovědi",
-        "unsubscribe": "Zrušit odběr - {count}",
+        "unsubscribe": "Zrušit odběr",
         "skip_sponsors": "Přeskočit sponzory",
         "minimize_description": "Skrýt popis",
         "skip_non_music": "Přeskočit hudbu: nehudební sekce",
@@ -144,7 +144,9 @@
         "import_from_json_csv": "Importovat z JSON/CSV",
         "download_frame": "Stáhnout snímek",
         "instance_privacy_policy": "Ochrana údajů",
-        "add_to_group": "Přidat do skupiny"
+        "add_to_group": "Přidat do skupiny",
+        "instances_not_shown": "Veřejné instance, které zde nejsou zobrazeny, momentálně nejsou dostupné.",
+        "concurrent_prefetch_limit": "Limit souběžných přednačtení streamů"
     },
     "player": {
         "watch_on": "Zobrazit na {0}",
@@ -163,7 +165,8 @@
         "ssl_score": "Stav SSL",
         "registered_users": "Registrovaní uživatelé",
         "up_to_date": "Aktuální?",
-        "version": "Verze"
+        "version": "Verze",
+        "uptime_30d": "Doba online (30d)"
     },
     "login": {
         "username": "Uživatelské jméno",
@@ -217,7 +220,7 @@
         "days": "{amount} dnů",
         "weeks": "{amount} týdnů",
         "months": "{amount} měsíců",
-        "login_note": "Přihlásit se s účtem vytvořeným na této instanci.",
+        "login_note": "Přihlaste se s účtem vytvořeným na této instanci.",
         "register_note": "Zaregistrujte si účet na této instanci služby Piped. To vám umožní synchronizovat vaše odběry a seznamy skladeb s vaším účtem, takže budou uloženy na straně serveru. Všechny funkce můžete používat i bez účtu, ale všechna data budou uložena v místní mezipaměti prohlížeče. Ujistěte se, že jako uživatelské jméno NEPOUŽÍVÁTE e-mailovou adresu, a zvolte si bezpečné heslo, které nepoužíváte jinde."
     }
 }

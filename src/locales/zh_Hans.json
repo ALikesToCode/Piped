@@ -45,8 +45,8 @@
         "most_recent": "最新的",
         "sort_by": "排序：",
         "view_subscriptions": "查看订阅列表",
-        "unsubscribe": "取消订阅 - {count}",
-        "subscribe": "订阅 - {count}",
+        "unsubscribe": "取消订阅",
+        "subscribe": "订阅",
         "loading": "正在加载...",
         "filter": "筛选",
         "search": "搜索 (Ctrl+K)",
@@ -126,7 +126,9 @@
         "import_from_json_csv": "从 JSON/CSV 文件导入",
         "download_frame": "下载视频帧",
         "instance_privacy_policy": "隐私政策",
-        "add_to_group": "添加到组"
+        "add_to_group": "添加到组",
+        "instances_not_shown": "未显示在此处的公共实例当前不可用。",
+        "concurrent_prefetch_limit": "并行流预获取限制"
     },
     "video": {
         "sponsor_segments": "赞助商部分",
@@ -151,7 +153,8 @@
         "instance_name": "实例名称",
         "version": "版本",
         "up_to_date": "最新？",
-        "registered_users": "已注册用户"
+        "registered_users": "已注册用户",
+        "uptime_30d": "在线时间（30天）"
     },
     "comment": {
         "pinned_by": "固定自 {author}",

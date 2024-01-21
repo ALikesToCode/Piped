@@ -22,8 +22,8 @@
         "failed": "Niepowodzenie z powodu kodu błędu {0}, przejrzyj logi, aby uzyskać więcej informacji"
     },
     "actions": {
-        "subscribe": "Subskrybuj - {count}",
-        "unsubscribe": "Odsubskrybuj - {count}",
+        "subscribe": "Subskrybuj",
+        "unsubscribe": "Odsubskrybuj",
         "view_subscriptions": "Zarządzaj subskrybcjami",
         "sort_by": "Sortuj:",
         "most_recent": "Najnowsze",
@@ -43,7 +43,7 @@
         "skip_highlight": "Przechodź do meritum filmu",
         "skip_filler_tangent": "Pomijaj wstawki humorystyczne",
         "theme": "Motyw",
-        "auto": "Automatyczna",
+        "auto": "Automatyczny",
         "dark": "Ciemny",
         "light": "Jasny",
         "autoplay_video": "Autoodtwarzanie",
@@ -148,7 +148,9 @@
         "import_from_json_csv": "Import z pliku JSON/CSV",
         "download_frame": "Pobierz klatkę",
         "instance_privacy_policy": "Polityki prywatności",
-        "add_to_group": "Dodaj do grupy"
+        "add_to_group": "Dodaj do grupy",
+        "instances_not_shown": "Instancje publiczne, które nie są tutaj pokazane, są obecnie niedostępne.",
+        "concurrent_prefetch_limit": "Limit równoczesnego pobierania wstępnego strumienia"
     },
     "comment": {
         "pinned_by": "Przypięty przez {author}",
@@ -163,7 +165,8 @@
         "registered_users": "Zarejestrowani użytkownicy",
         "version": "Wersja",
         "up_to_date": "Aktualna?",
-        "ssl_score": "Ocena SSL"
+        "ssl_score": "Ocena SSL",
+        "uptime_30d": "Czas pracy (30d)"
     },
     "login": {
         "username": "Nazwa użytkownika",

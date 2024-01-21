@@ -18,7 +18,7 @@
         "channel_groups": "Kanal Grupper"
     },
     "actions": {
-        "subscribe": "Prenumerera - {count}",
+        "subscribe": "Prenumerera",
         "channel_name_asc": "Kanalnamn (A-Z)",
         "channel_name_desc": "Kanalnamn (Z-A)",
         "back": "Tillbaka",
@@ -28,7 +28,7 @@
         "export_to_json": "Exportera till JSON",
         "show_description": "Visa beskrivning",
         "loading": "Laddar...",
-        "unsubscribe": "Avsluta prenumeration - {count}",
+        "unsubscribe": "Avsluta prenumeration",
         "sort_by": "Sortera efter:",
         "most_recent": "Senaste",
         "skip_intro": "Hoppa över paus/introanimering",
@@ -144,7 +144,9 @@
         "download_frame": "Ladda ner bildruta",
         "import_from_json_csv": "Importera från JSON/CSV",
         "instance_privacy_policy": "Sekretesspolicy",
-        "add_to_group": "Lägg till i grupp"
+        "add_to_group": "Lägg till i grupp",
+        "instances_not_shown": "Publika instanser som inte visas här är inte tillgängliga för närvarande.",
+        "concurrent_prefetch_limit": "Gräns för förhämtning av samtidig ström"
     },
     "player": {
         "watch_on": "Se på {0}",
@@ -157,7 +159,8 @@
         "has_cdn": "Har CDN?",
         "registered_users": "Registrerade användare",
         "version": "Version",
-        "up_to_date": "Är du uppdaterad?"
+        "up_to_date": "Är du uppdaterad?",
+        "uptime_30d": "Upptid (30d)"
     },
     "login": {
         "username": "Användarnamn",

@@ -31,8 +31,8 @@
         "most_recent": "Am Neuesten",
         "sort_by": "Sortieren nach:",
         "view_subscriptions": "Abos anzeigen",
-        "unsubscribe": "Deabonnieren - {count}",
-        "subscribe": "Abonnieren - {count}",
+        "unsubscribe": "Deabonnieren",
+        "subscribe": "Abonnieren",
         "enabled_codecs": "Aktivierte Codecs (Auswahl mehrerer Codecs möglich)",
         "enable_lbry_proxy": "Proxy für LBRY einschalten",
         "disable_lbry": "LBRY für Streaming deaktivieren",
@@ -126,7 +126,8 @@
         "import_from_json_csv": "Aus JSON/CSV importieren",
         "download_frame": "Einzelbild (Frame) downloaden",
         "instance_privacy_policy": "Datenschutzerklärung",
-        "add_to_group": "Zu Gruppe hinzufügen"
+        "add_to_group": "Zu Gruppe hinzufügen",
+        "instances_not_shown": "Öffentliche Instanzen, die hier nicht angezeigt werden, sind derzeit nicht verfügbar."
     },
     "player": {
         "watch_on": "Auf {0} ansehen",
@@ -173,7 +174,8 @@
         "instance_name": "Instanzname",
         "registered_users": "Registrierte Benutzer",
         "version": "Version",
-        "up_to_date": "Auf dem neuesten Stand?"
+        "up_to_date": "Auf dem neuesten Stand?",
+        "uptime_30d": "Uptime (30 Tage)"
     },
     "comment": {
         "pinned_by": "Angeheftet von {author}",

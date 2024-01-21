@@ -73,11 +73,11 @@
                 <!-- Channel Image & Info -->
                 <div class="flex items-center">
                     <img
+                        loading="lazy"
                         height="48"
                         width="48"
                         :src="video.uploaderAvatar"
                         alt=""
-                        loading="lazy"
                         class="rounded-full"
                     />
                     <router-link v-if="video.uploaderUrl" class="link ml-1.5" :to="video.uploaderUrl">{{
@@ -109,12 +109,13 @@
                         {{ $t("actions.add_to_playlist") }}<font-awesome-icon class="ml-1" icon="circle-plus" />
                     </button>
                     <button
-                        v-t="{
-                            path: `actions.${subscribed ? 'unsubscribe' : 'subscribe'}`,
-                            args: { count: numberFormat(video.uploaderSubscriberCount) },
-                        }"
                         class="btn"
                         @click="subscribeHandler"
+                        v-text="
+                            $t('actions.' + (subscribed ? 'unsubscribe' : 'subscribe')) +
+                            ' - ' +
+                            numberFormat(video.uploaderSubscriberCount)
+                        "
                     />
                     <div class="flex flex-wrap gap-1">
                         <!-- RSS Feed button -->
@@ -264,6 +265,7 @@
                         v-for="related in video.relatedStreams"
                         :key="related.url"
                         :item="related"
+                        class="mb-4"
                         height="94"
                         width="168"
                     />
@@ -315,7 +317,7 @@ export default {
             selectedAutoLoop: false,
             selectedAutoPlay: null,
             showComments: true,
-            showDesc: true,
+            showDesc: false,
             showRecs: true,
             showChapters: true,
             comments: null,
@@ -416,7 +418,7 @@ export default {
         this.active = true;
         this.selectedAutoPlay = this.getPreferenceBoolean("autoplay", false);
         this.showComments = !this.getPreferenceBoolean("minimizeComments", false);
-        this.showDesc = !this.getPreferenceBoolean("minimizeDescription", false);
+        this.showDesc = !this.getPreferenceBoolean("minimizeDescription", true);
         this.showRecs = !this.getPreferenceBoolean("minimizeRecommendations", false);
         this.showChapters = !this.getPreferenceBoolean("minimizeChapters", false);
         if (this.video?.duration) {
@@ -456,7 +458,7 @@ export default {
             });
 
             sponsors?.segments?.forEach(segment => {
-                const option = skipOptions[segment.category];
+                const option = skipOptions?.[segment.category];
                 segment.autoskip = option === undefined || option === "auto";
             });
 

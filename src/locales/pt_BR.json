@@ -17,8 +17,8 @@
         "minimize_description_default": "Minimizar Descrição por padrão",
         "theme": "Tema",
         "audio_only": "Apenas Áudio",
-        "subscribe": "Inscrever-se - {count}",
-        "unsubscribe": "Desinscrever-se - {count}",
+        "subscribe": "Inscrever-se",
+        "unsubscribe": "Desinscrever-se",
         "skip_sponsors": "Pular Patrocinadores",
         "auto": "Automático",
         "uses_api_from": "Usa a API de ",
@@ -126,7 +126,9 @@
         "enable_dearrow": "Ativar DeArrow",
         "import_from_json_csv": "Importar de JSON/CSV",
         "download_frame": "Baixar quadro",
-        "add_to_group": "Adicionar ao grupo"
+        "add_to_group": "Adicionar ao grupo",
+        "instances_not_shown": "Instâncias públicas que não são mostradas aqui estão atualmente indisponíveis.",
+        "concurrent_prefetch_limit": "Limite de Prefetch de Stream Concomitante"
     },
     "titles": {
         "history": "Histórico",
@@ -163,7 +165,8 @@
         "instance_locations": "Localizações da Instância",
         "has_cdn": "Tem CDN?",
         "up_to_date": "Atualizado?",
-        "ssl_score": "Pontuação SSL"
+        "ssl_score": "Pontuação SSL",
+        "uptime_30d": "Tempo de atividade (30d)"
     },
     "login": {
         "username": "Nome de usuário",
